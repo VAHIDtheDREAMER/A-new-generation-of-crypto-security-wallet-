@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # توکن از متغیر محیطی (Env Var) گرفته میشه
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TOKEN = os.getenv("8293627914:AAHsIddC1XExdUo2_4KOacwJVj17SLQBkBwN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("سلام! 🤖 من ربات VaultX هستم. آماده‌ای برای شروع مزایده؟")
